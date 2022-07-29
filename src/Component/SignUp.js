@@ -57,7 +57,7 @@ const SignUp =() =>{
             <label className='text-white'> Type Your Password </label>
             <input className='form-control'  value={password} onChange={(e)=>setPassword(e.target.value)} type='Password' placeholder='' />
             
-            <button onClick={formData} className='btn btn-primary mt-3 form-control'> Register </button>
+            <button onClick={formData} className='btn btn-primary mt-3 form-control'> SignUp </button>
             </div>
             
 
